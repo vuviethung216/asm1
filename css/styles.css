@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+
+.section {
+  margin: 40px;
+  text-align: justify;
+}
+
+.section-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: solid black;
+}
+#info h1 {
+  border: none;
+}
+
+#info span {
+  display: inline-block;
+  font-weight: bolder;
+  width: 150px;
+}
+
+.section-image {
+  position: absolute;
+  padding: 10px;
+  top: 0px;
+  right: 0px;
+}
+
+#info {
+  position: relative;
+}
+
+.timeline p {
+  display: inline-block;
+}
+.left {
+  vertical-align: top;
+  width: 200px;
+}
+.right {
+  width: 580px;
+}
+.hobby {
+  margin-left: -20px;
+}
+.timeline {
+  border-bottom: 2px solid #f1f1f1;
+}
+#kontakt {
+  border-bottom: 2px solid #f1f1f1;
+  border-top: 2px solid #f1f1f1;
+  text-decoration: none;
+}
